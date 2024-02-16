@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+	max-width: 1250px;
+	margin:auto;
+    
+}
+
+footer{
+	background-color: #24262b;
+    padding: 60px 0 20px;
+    width:100%;
+    position:relative;
+    bottom:0;
+    
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+    padding: 15px;
+}
+ul{
+	list-style: none;
+}
+.footer-col{
+   width: 20%;
+   padding: 0 15px;
+   position: relative;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: relative;
+	left:0;
+    bottom: 0;
+	bottom: -10px;
+	background-color: #fcfafb;
+	height: 2px;
+	box-sizing: border-box;
+	width: 90px;
+   
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.subscribe{
+    color: #008080;
+   width: 90%;
+   height: 50px;
+   font-size: 30px;  
+}
+
+.subscribe .placeholder{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid;
+    border-radius: 8px;
+    position: relative;
+    left: 60vh;
+ 
+}
+
+.subscribe .sub-btn{
+    size: 17px;
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px ;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: right;
+    position: relative;
+    left: 70vh;
+    background: #008080;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.footer-col .logo2{
+   
+    width: 20vh;
+    height: auto;
+    padding: auto;
+    margin-bottom: 30px;
+    margin-left: -30px;
+    position: relative;
+    z-index: 1;
+ 
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media only screen and (max-width:1000px){
+    footer{
+        border: unset;
+        padding: 30px;
+        /* background-color: #24262b; */
+        background-color: #24262b;
+    }
+    .subscribe .placeholder,
+.subscribe .sub-btn{
+    font-size: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+}
+
+
+
+/* 
+@media (max-width: 574px){
+ .subscribe .placeholder, .subscribe .sub-btn {
+    font-size: 12px;
+    left: 66px;
+    transform: translateX(-35px);
+}} */
+@media(max-width: 767px){
+    /* footer{
+        padding: 30px;
+    } */
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+    	background-color: #24262b;
+}
+
+
+
+.subscribe .placeholder,
+.subscribe .sub-btn{
+    font-size: 14px;
+    left: 24%;
+    transform: translateX(-50%);
+}
+
+.footer-col .social-links a {
+    margin: 0 5px 5px 0;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+}
+}
+
+@media(max-width: 589px){
+  .footer-col{
+    width: 100%;
+}
+
+@media (max-width: 589px){
+    .subscribe .placeholder,
+    .subscribe .sub-btn{
+        font-size: 12px;
+        margin: 7px 2px;
+        padding: 6px 12px;
+    }
+
+    #h1{
+        display: inline;
+        display: none;
+    }
+}
+
+
+.footer-col .logo2{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: -30px;
+    padding-top: 20px;
+}
+
+.subscribe .placeholder,
+.subscribe .sub-btn
+{
+    font-size: 12px;
+    left: 50px;
+    transform: translateX(-50px);
+}
+.footer-col h4::befor{
+    width: 70px;
+}
+}
+
+
+
+#hr2{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 5px auto;
+}
+
+.copyright{
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+.toggle-btn{
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
